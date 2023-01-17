@@ -1449,22 +1449,26 @@ ol {
 		padding-top: 3rem;
 }
 .feature_item {
-	padding: 45px 25px;
+	padding: 10px 15px;
 	text-align: center;
 	background: #f9f9fd;
 	cursor: pointer;
 	margin-bottom: 30px;
+	border-radius: 10px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+	min-height: 400px;
 }
 .feature_item	img {
 		margin-bottom: 35px;
 	}
 .feature_item	h4 {
 		font-size: 20px;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 		text-transform: uppercase;
 	}
 .feature_item	p {
 		margin-bottom: 0px;
+		font-style: italic;
 	}
 .feature_item:hover {
 		box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
